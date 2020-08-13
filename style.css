@@ -47,3 +47,20 @@ html{
     background-color: gray;
     color:wheat;
 }
+.container {
+  background: linear-gradient(#b6fbff, #83a4d4);
+  height: 700px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.profile-figure {
+  border: 3px solid #777;
+  border-radius: 10px;
+  width: 200px;
+}
+.profile-img {
+  width: 175px; 
+}
