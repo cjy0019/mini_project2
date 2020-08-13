@@ -104,6 +104,7 @@ html {
 .footer {
   padding: 20px;
   min-height: 150px;
+  text-align: center;
 }
 
 .footer-from a {
@@ -121,14 +122,14 @@ html {
 
 .circle {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5);
-  background-color: #6a037b;
+  background-color: rgb(25, 25, 92);
   border: 5px solid #fff;
 }
 
@@ -153,7 +154,7 @@ html {
   transform: translateX(-50%);
   width: 140px;
   height: 60px;
-  background-color: #9c27b0;
+  background-color: tomato;
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
