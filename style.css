@@ -32,6 +32,8 @@ html{
     font-size: 0;
     border:5px solid rgb(25, 25, 92);
     background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 5px 5px 1px 1px rgb(25, 25, 92);
 }
 .main-menu__individual{
     display:inline-block;
@@ -48,7 +50,6 @@ html{
     color:wheat;
 }
 .container {
-  background: linear-gradient(#b6fbff, #83a4d4);
   height: 700px;
 }
 .profile {
@@ -57,10 +58,29 @@ html{
   align-content: center;
 }
 .profile-figure {
-  border: 3px solid #777;
+  margin:0 10px;
   border-radius: 10px;
+  border:5px solid rgb(25,25,92);
+  padding-top:10px;
   width: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 1px 1px rgb(25, 25, 92);
 }
 .profile-img {
   width: 175px; 
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.profile-figcaption{
+    font-size:1.6rem;
+    color:rgb(25, 25, 92);
+}
+.cjy .profile-img:hover{
+    transform: scale(10) translateX(10%) translateY(20%)
+}
+.kym .profile-img:hover{
+    transform: scale(10) translateX(-10%) translateY(20%)
+}
+.cya .profile-img:hover{
+    transform: scale(10) translateX(-10%) translateY(20%);
 }
