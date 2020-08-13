@@ -1,0 +1,49 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 10px;
+}
+.header{
+    width:80%;
+    margin:0 auto;
+    padding-bottom:30px;
+}
+.header-wrapper{
+    text-align: center;
+}
+.heading{
+    display:inline-block;
+}
+.heading-logo-img{
+    width:100px;
+    height:100px;
+    padding-top:0px;
+}
+.main-menu{
+
+    text-align: center;
+}
+.main-menu__members{
+    display: inline-block;
+    list-style: none;
+    font-size: 0;
+    border:5px solid rgb(25, 25, 92);
+    background-color: tomato;
+}
+.main-menu__individual{
+    display:inline-block;
+    font-size:2rem;
+}
+.main-menu__individual a{
+    display:inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:white;
+}
+.main-menu__individual a:hover{
+    background-color: gray;
+    color:wheat;
+}
